@@ -29,11 +29,14 @@ const Contact = () => {
             </p>
             <h4>Education</h4>
             <p>
-              M.S. Data Science, Hofstra University, NY — 2024–2025
+              <b>Master of Science in Data Science</b> &nbsp; January 2024 &ndash; December 2025
+              <br />
+              Hofstra University, Hempstead, New York
             </p>
             <p>
-              B.Tech Computer Science, Guru Nanak Institutions, Hyderabad —
-              2019–2023
+              <b>Bachelor of Technology in Computer Science</b> &nbsp; August 2019 &ndash; July 2023
+              <br />
+              Guru Nanak Institutions, Hyderabad, India
             </p>
           </div>
           <div className="contact-box">
