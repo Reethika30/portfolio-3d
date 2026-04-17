@@ -67,34 +67,13 @@ def render_project(slug: str, title: str, sub: str, bg: str, accent: str):
     W, H = 1280, 800
     img = Image.new("RGB", (W, H), bg)
     d = ImageDraw.Draw(img)
-    # decorative circles
-    d.ellipse([-200, -200, 400, 400], outline=accent, width=8)
-    d.ellipse([W - 380, H - 380, W + 220, H + 220], outline=accent, width=8)
-    d.ellipse([W - 260, -120, W + 100, 240], fill=accent)
-
-    # title
-    ft = get_font(86)
-    fs = get_font(40)
-    # word-wrap title at ~22 chars
-    words = title.split(); lines = []; cur = ""
-    for w in words:
-        if len(cur + " " + w) > 22:
-            lines.append(cur.strip()); cur = w
-        else:
-            cur += " " + w
-    if cur:
-        lines.append(cur.strip())
-    y = 200
-    for line in lines:
-        bbox = d.textbbox((0, 0), line, font=ft)
-        d.text((90 - bbox[0], y - bbox[1]), line, fill="#FFFFFF", font=ft)
-        y += (bbox[3] - bbox[1]) + 16
-    # subtitle
-    bbox = d.textbbox((0, 0), sub, font=fs)
-    d.text((90 - bbox[0], y + 30 - bbox[1]), sub, fill=accent, font=fs)
-    # corner tag
-    fc = get_font(28)
-    d.text((90, H - 90), "Live demo \u2192", fill="#FFFFFF", font=fc)
+    # decorative circles only - no big text (carousel shows the project name)
+    d.ellipse([-260, -260, 460, 460], outline=accent, width=10)
+    d.ellipse([W - 420, H - 420, W + 260, H + 260], outline=accent, width=10)
+    d.ellipse([W - 300, -160, W + 140, 280], fill=accent)
+    d.ellipse([-120, H - 320, 360, H + 160], fill=accent)
+    fc = get_font(34)
+    d.text((70, H - 80), sub, fill="#FFFFFF", font=fc)
     path = f"{OUT}/project-{slug}.png"
     img.save(path, "PNG", optimize=True)
     return path

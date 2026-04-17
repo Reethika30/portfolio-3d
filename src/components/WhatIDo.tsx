@@ -88,11 +88,10 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>DATA ENGINEERING</h3>
-              <h4>Cloud Pipelines & Warehousing at Scale</h4>
+              <h4>Cloud Pipelines & Warehousing</h4>
               <p>
-                I design and build production ETL/ELT pipelines on Snowflake,
-                BigQuery and Redshift — partitioned, clustered and cost-tuned
-                so analytics teams can ship fast.
+                Production ETL/ELT on Snowflake, BigQuery & Redshift —
+                partitioned, clustered and cost-tuned.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -129,9 +128,8 @@ const WhatIDo = () => {
               <h3>APPLIED AI &amp; LLMs</h3>
               <h4>From Notebook to Production</h4>
               <p>
-                I take ML and LLM systems all the way to deployment — attention
-                models, vision pipelines, multilingual NLP and LLM agents that
-                plug into real data and ship as live demos.
+                Attention models, vision pipelines, multilingual NLP and LLM
+                agents shipped as live demos.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
