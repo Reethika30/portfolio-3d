@@ -45,34 +45,6 @@ const Career = () => {
               through Airflow parallelization and SQL tuning.
             </p>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>M.S. Data Science</h4>
-                <h5>Hofstra University · New York</h5>
-              </div>
-              <h3>2024–25</h3>
-            </div>
-            <p>
-              GPA 3.8/4.0. Specialised in machine learning, deep learning and
-              big-data systems — capstone projects in NLP attention models,
-              computer vision and large-scale data engineering on Snowflake.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>B.Tech Computer Science</h4>
-                <h5>Guru Nanak Institutions · Hyderabad</h5>
-              </div>
-              <h3>2019–23</h3>
-            </div>
-            <p>
-              GPA 8.9/10. Foundations in algorithms, databases, operating
-              systems and distributed computing — with hands-on coursework in
-              Python, SQL and cloud computing.
-            </p>
-          </div>
         </div>
       </div>
     </div>
