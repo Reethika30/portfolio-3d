@@ -42,7 +42,7 @@ story = []
 story.append(Paragraph("SREE REETHIKA KASANAGOTTU", H1))
 story.append(Paragraph(
     "+1 (571) 523-6224 &nbsp;|&nbsp; "
-    "<a href='mailto:reethikakasanagottu@gmail.com'>reethikakasanagottu@gmail.com</a> &nbsp;|&nbsp; "
+    "<a href='mailto:kasanagottusreereethika@gmail.com'>kasanagottusreereethika@gmail.com</a> &nbsp;|&nbsp; "
     "<a href='https://www.linkedin.com/in/sree-reethika/'>linkedin.com/in/sree-reethika</a> &nbsp;|&nbsp; "
     "<a href='https://github.com/Reethika30'>github.com/Reethika30</a>", SUB))
 
