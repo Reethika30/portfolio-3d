@@ -1,5 +1,37 @@
 # Sree Reethika Kasanagottu — 3D Portfolio
 
+Personal 3D portfolio for **Sree Reethika Kasanagottu** — Full Stack Data Professional
+specialising in scalable ETL/ELT pipelines, cloud data warehousing, and applied
+AI on AWS / Azure / GCP / Snowflake / BigQuery.
+
+**Live:** https://sree-reethika-portfolio.vercel.app
+**Source:** https://github.com/Reethika30/portfolio-3d
+
+## Stack
+
+React 18 · TypeScript · Vite · GSAP (ScrollSmoother + ScrollTrigger) ·
+Three.js + @react-three/fiber + drei + postprocessing · @react-three/rapier
+physics · react-fast-marquee · @vercel/analytics.
+
+## Sections
+
+Landing → About → What I Do → Career → Work (4 live demos) →
+Tech Stack (3D physics balls) → Contact.
+
+## Local dev
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # type-check + production build
+npm run preview
+```
+
+## License
+
+MIT — see `LICENSE`.
+# Sree Reethika Kasanagottu — 3D Portfolio
+
 Personal 3D portfolio for **Sree Reethika Kasanagottu** — Data Engineer specialising in
 scalable ETL/ELT pipelines, cloud data warehousing, and applied AI on
 AWS / Azure / GCP / Snowflake / BigQuery.
