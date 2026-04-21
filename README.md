@@ -4,7 +4,6 @@ Personal 3D portfolio for **Sree Reethika Kasanagottu** — Full Stack Data Prof
 specialising in scalable ETL/ELT pipelines, cloud data warehousing, and applied
 AI on AWS / Azure / GCP / Snowflake / BigQuery.
 
-**Live:** https://sree-reethika-portfolio.vercel.app
 **Source:** https://github.com/Reethika30/portfolio-3d
 
 ## Stack
